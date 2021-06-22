@@ -1,0 +1,9 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex-1-of-4,
+.flex-1-of-3 {
+  flex-grow: 1;
+}

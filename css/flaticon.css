@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?01dd4a082ee705f42ba1c22af64d26d8") format("truetype"),
+url("./flaticon.woff?01dd4a082ee705f42ba1c22af64d26d8") format("woff"),
+url("./flaticon.woff2?01dd4a082ee705f42ba1c22af64d26d8") format("woff2"),
+url("./flaticon.eot?01dd4a082ee705f42ba1c22af64d26d8#iefix") format("embedded-opentype"),
+url("./flaticon.svg?01dd4a082ee705f42ba1c22af64d26d8#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-healthy-lifestyle-logo:before {
+    content: "\f101";
+}

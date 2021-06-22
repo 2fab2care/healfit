@@ -1,0 +1,23 @@
+.section__about {
+  background-color: $color-light-1;
+  padding: 10rem 5rem 15rem;
+}
+.section__features {
+  padding: 20rem 5rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.7),
+      rgba($color-primary-dark, 0.7)
+    ),
+    url(../res/img/main.jpg);
+  background-size: cover;
+  background-position: center;
+  transform: skewY(-7deg);
+  & > * {
+    transform: skewY(7deg);
+  }
+}
+
+.section__packages {
+  padding: 10rem 5rem 15rem;
+}
